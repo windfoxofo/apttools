@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "apt-get 快速执行工具 V1.0 (卸载) - by WindFox OPO"
+echo "如果您不是root用户，会要求您输入密码，这是正常的，我们不会窃取您的任何信息。"
+echo "为确保数据安全，仍会询问您需不需要卸载(Y/n)，请自行斟酌。"
+echo "如果需要移除依赖，请在卸载程序后直接执行amy。"
+sudo apt-get remove $1
+echo "感谢您的使用！"

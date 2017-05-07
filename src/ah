@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "apt-get 快速执行工具 V1.0 (帮助) - by WindFox OPO"
+echo "如果您不是root用户，会要求您输入密码，这是正常的，我们不会窃取您的任何信息。"
+echo "ai [包名] : 等效于apt-get install [包名] -y"
+echo "am [包名] : 等效于apt-get remove [包名]"
+echo "amy [包名] : 用于清除卸载程序后其依赖，等效与apt autoremove"
+echo "au : 等效与apt-get update"
+echo "aup : 升级系统程序，等效于apt-get upgrade -y"
+echo "ad : 卸载本工具（不建议）。"

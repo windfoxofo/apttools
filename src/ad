@@ -1,0 +1,18 @@
+#!/bin/sh
+echo "apt-get 快速执行工具 V1.0 (卸载向导） - by WindFox OPO"
+echo "如果您不是root用户，会要求您输入密码，这是正常的，我们不会窃取您的任何信息。"
+read -p "您真的要卸载吗？／（ㄒｏㄒ）／～～　[只能输入y/N]" answer
+case $answer in 
+Y | y) 
+      echo "哦，那就只能拜拜了……／（ㄒｏㄒ）／～～";
+      sudo rm /bin/ad && echo "555555……" || echo "卸载程序删除失败！请手动执行\"rm /bin/ad\"删除。"
+      sudo rm /bin/amy /bin/am /bin/ai /bin/au /bin/aup /bin/ah && echo "卸载成功！" || echo "卸载失败！请检查是否有root权限。"
+      ;;
+N | n) 
+      echo "感谢主银对本公举的大力支持～"
+      ;;
+*)
+      echo "不回答？那我当你默许不删了～Ｏ（∩＿∩）Ｏ哈哈～"
+      ;;
+esac
+echo "感谢您的使用！"

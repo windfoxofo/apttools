@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "apt-get 快速执行工具 V1.0　安装程序 - by WindFox OPO"
+echo "如果您不是root用户，会要求您输入密码，这是正常的，我们不会窃取您的任何信息。"
+sudo cp ai am amy ad ah au aup /bin && echo "安装成功！请输入ah以寻求帮助。" || echo "安装失败，请检查是否有root权限！"
